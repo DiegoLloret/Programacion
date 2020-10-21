@@ -22,7 +22,7 @@ public class ejercicio2 {
 
 	    { 
 
-	       System.out.println("es par"); 
+	       System.out.println("es parr"); 
 
 	         
 
