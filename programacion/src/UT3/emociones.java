@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 /**
  * @author Diego Lloret
- *
+ *xd
  */
 public class emociones {
 
