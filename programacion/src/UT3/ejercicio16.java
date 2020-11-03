@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 /**
  * @author f009979n
- *xd lol
+ *xd lolcc
  */
 public class ejercicio16 {
 
