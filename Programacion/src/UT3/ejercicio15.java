@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class ejercicio15 {
 
 	/**
-	 * @param args xd lol
+	 * @param args 
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
