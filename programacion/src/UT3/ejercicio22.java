@@ -34,34 +34,55 @@ public class ejercicio22 {
 
 		// TODO Auto-generated method stub
 
-		Scanner entrada = new Scanner(System.in); 
+		  int numero; 
+
+	        int multiplo; 
+
+	        int contador=1; 
+
+	        int base; 
+
+	         
+
+	        System.out.println("Escribe la base a calcular:"); 
+
+	        Scanner scn=new Scanner(System.in); 
+
+	        numero=scn.nextInt(); 
+
+	        System.out.println("Escribe la potencia a calcular:"); 
+
+	        multiplo=scn.nextInt(); 
+
+	         
+
+	        base=numero; 
+
+	         
+
+	        do { 
+
+	            numero=numero*base; 
+
+	            contador=contador+1; 
+
+	        }while(contador!=multiplo); 
+
+	         
+
+	        System.out.printf("El calculo es %d",numero); 
+
+	         
+
+	        scn.close(); 
+
+	  
+
+	    } 
+
+	  
 
 	
-
-		 
-
-		  
-
-		
-
-        System.out.println("Escribe un numero"); 
-
-        int numero1 = entrada.nextInt();
-
-        System.out.println("Escribe la potencia"); 
-
-        int potencia = entrada.nextInt();
-
-    	int operacion = (numero1*numero1);
-
-	
-
-        System.out.println("La respuesta: " +operacion ); 
-
-		
-
-        entrada.close(); 
-
 
 
 	
@@ -70,4 +91,3 @@ public class ejercicio22 {
 
 }
 
-}
