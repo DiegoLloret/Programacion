@@ -6,7 +6,7 @@ package UT3;
 import java.util.Scanner;
 
 /**
- * @author Fabiadmin
+ * @author Diego
  *
  */
 public class telas {
