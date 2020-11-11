@@ -2,53 +2,31 @@
  * 
  */
 package UT3;
+import java.util.Scanner; 
 
 /**
- * @author Alumno 3
+ * @author f009979n
  *
  */
-import java.util.Scanner;
 public class ejercicio15 {
 
 	/**
-	 * @param args 
+	 * @param args
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("introduce tu nota ");
-		Scanner nota=new Scanner(System.in);
-		
-		float nota1=nota.nextInt(); 
-		if( nota1 >=0 && nota1 <5)
-		{
-			System.out.println(nota1 + "=> insuficiente");
-		}
-		else if(nota1 <6)
-		{
-			System.out.println(nota1 + "=> suficiente");
-		}
-		else if(nota1 <7)
-			{
-				System.out.println(nota1 + "=> bien");	
-			}
-	
-		else if(nota1 <=8)
-		{
-		System.out.println(nota1 + "=> notable");
-		}
-		else if(nota1 <=10)
-		{
-			System.out.println(nota1 + "=> sobresaliente");
-		}
-		else if(nota1 >10)
-		{
-		System.out.println(nota1 + "=> error");
-		}
-		else if(nota1 <0)
-		{
-		System.out.println(nota1 + "=> suficiente");
-		}
-				
+		 Scanner sc = new Scanner(System.in);  
+
+
+System.out.println("escriba el dia");
+int dia=sc.nextInt();
+System.out.println("escriba el mes");
+int mes=sc.nextInt();
+System.out.println("escriba el año");
+int año=sc.nextInt();
+System.out.println(dia+"/"+ mes+"/"+ año);
+
 	}
 	
+
 }
