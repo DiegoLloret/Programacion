@@ -39,7 +39,7 @@ public class telas {
 				} else {
 					System.out.println("la tela aun resiste ");
 				}
-
+				
 			}
 			System.out.println("La suma del peso de los elefantes es: " + suma + " kilos y se rompió");
 			System.out.println("\n \n introduce el peso maximo soportado por la tela de araña: ");
