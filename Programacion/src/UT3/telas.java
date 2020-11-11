@@ -22,7 +22,7 @@ public class telas {
 		int i=0;
 		int suma = 0;
 
-		System.out.println("introduce el peso maximo soportado por la tela de araña: ");
+		System.out.println("introduce el peso maximo soportado por la tela de araÃ±a: ");
 		int telas = ent.nextInt();
 		while (telas != 0) {
 		suma=0;
@@ -41,8 +41,10 @@ public class telas {
 				}
 				
 			}
-			System.out.println("La suma del peso de los elefantes es: " + suma + " kilos y se rompió");
-			System.out.println("\n \n introduce el peso maximo soportado por la tela de araña: ");
+			if (elefantes != 0) {
+				System.out.println("La suma del peso de los elefantes es: " + suma + " kilos y se rompiÃ³");
+			}
+			System.out.println("\n \n introduce el peso maximo soportado por la tela de araÃ±a: ");
 			telas = ent.nextInt();
 		}
 	}
