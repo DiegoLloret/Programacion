@@ -6,7 +6,7 @@ package UT3;
 import java.util.Scanner;
 
 /**
- * @author f009979n
+ * @author f009979n kekw
  *
  */
 public class ejercicio37 {
