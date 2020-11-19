@@ -10,7 +10,8 @@ import java.util.Scanner;
  *
  */
 public class ejercicio63 {
-
+	
+	
 	/**
 	 * @param args
 	 */
@@ -19,8 +20,8 @@ public class ejercicio63 {
 		Scanner numero = new Scanner(System.in);
 		int numeros[];
 		numeros= new int[10];
-		int suma;
-		
+		int suma=0;
+		int media=0;
 		
 		for (int i=0; i<numeros.length; i++) {
 			System.out.println("ponme el numero "+(i+1));
@@ -28,7 +29,11 @@ public class ejercicio63 {
 			
 		}
 	
-			
+		for (int i=0; i<numeros.length; i++) {
+			suma=suma+numeros[i];
+			}
+		media=suma/numeros.length;
+			System.out.println("la media es "+(media));
 	}
 	}
 
