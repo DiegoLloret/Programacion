@@ -4,7 +4,7 @@
 package UT5;
 
 /**
- * @author Diego
+ * @author Diego Lloret
  *
  */
 public class ejercicio71 {
