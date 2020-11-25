@@ -6,7 +6,7 @@ package UT5;
 import java.util.Scanner;
 
 /**
- * @author f009979n
+ * @author Alumno 3
  *
  */
 public class ejercicio64 {
@@ -14,80 +14,71 @@ public class ejercicio64 {
 	/**
 	 * @param args
 	 */
-	
-	
-	
-	
-	//cambio de hoy bbb
-	
-	
-	
-	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner sc = new Scanner(System.in); 
+		  Scanner sc = new Scanner(System.in); 
 
-        int a[]; 
+	        int a[]; 
 
-        int b[]; 
+	        int b[]; 
 
-        int c[]; 
+	        int c[]; 
 
-        int i,j; 
+	        int i,j; 
 
-        a=new int[5]; 
+	        a=new int[5]; 
 
-        b=new int[5]; 
+	        b=new int[5]; 
 
-        c = new int [10]; 
+	        c = new int [10]; 
 
-        // leemos la tabla a 
+	        // leemos la tabla a 
 
-        System.out.println("Leyendo la tabla a"); 
+	        System.out.println("Leyendo la tabla a"); 
 
-        for (i=0;i<5;i++){ 
+	        for (i=0;i<5;i++){ 
 
-            System.out.print("número: "); 
+	            System.out.print("número: "); 
 
-            a[i]=sc.nextInt(); 
+	            a[i]=sc.nextInt(); 
 
-        } 
+	        } 
 
-        // leemos la tabla b 
+	        // leemos la tabla b 
 
-        System.out.println("Leyendo la tabla b"); 
+	        System.out.println("Leyendo la tabla b"); 
 
-        for (i=0;i<5;i++){ 
+	        for (i=0;i<5;i++){ 
 
-            System.out.print("número: "); 
+	            System.out.print("número: "); 
 
-            b[i]=sc.nextInt(); 
+	            b[i]=sc.nextInt(); 
 
-        } 
+	        } 
 
-         
+	         
 
-        j=0; 
+	        j=0; 
 
-        for (i=0;i<5;i++){ 
+	        for (i=0;i<5;i++){ 
 
-            c[j]=a[i]; 
+	            c[j]=a[i]; 
 
-            j++; 
+	            j++; 
 
-            c[j]=b[i]; 
+	            c[j]=b[i]; 
 
-            j++; 
+	            j++; 
 
-        } 
+	        } 
 
-        System.out.println("La tabla c queda: "); 
+	        System.out.println("La tabla c queda: "); 
 
-        for (j=0;j<10;j++) 
+	        for (j=0;j<10;j++) 
 
-            System.out.print(c[j]+" "); 
+	            System.out.print(c[j]+" "); 
 
-            System.out.println(""); 
+	            System.out.println(""); 
 	}
 
 }
