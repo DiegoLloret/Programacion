@@ -6,7 +6,7 @@ package UT5;
 import java.util.Scanner;
 
 /**
- * @author Alumno 3
+ * @author Alumno 3 xd lol
  *
  */
 public class ejercicio63 {
