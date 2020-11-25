@@ -67,7 +67,7 @@ public class escalera {
 					
 					//algoritmo para ver si es escalera
 					
-				} 
+				
 				Arrays.sort(carta);
 				 for (int i = 1; i < carta.length; i++) 
 				 {
@@ -101,5 +101,5 @@ public class escalera {
 				 }
 		}
 	}
-
+	}
 }
