@@ -10,7 +10,7 @@ public class buscaminas {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("¿De cuanto quieres el tamaño del campo de minas?");
 		int tam=sc.nextInt();
-		char tablero [][] = new char[tam+1][tam+1];
+		char tablero [][] = new char[tam][tam];
 		for (int i = 0; i < tablero.length; i++) {
 			for (int j = 0; j < tablero.length; j++) {
 				int valor=(int) (Math.random()*3)+1;
@@ -23,7 +23,7 @@ public class buscaminas {
 		}
 		for (int i = 0; i < tablero.length; i++) {
 			for (int j = 0; j < tablero.length; j++) {
-				System.out.print(tablero[i][j]);
+				System.out.print(tablero[i][j]+" ");
 			}
 			System.out.println();
 		}
@@ -65,7 +65,7 @@ public class buscaminas {
 					}
 					if (cont>=6) {
 						validas++;
-						System.out.println("cumplen "+ i+ "  "+j);
+						
 					}
 				}
 			}
