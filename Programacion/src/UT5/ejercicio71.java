@@ -56,7 +56,7 @@ public class ejercicio71 {
 	      for (int i=0; i<numero3.length; i++) {
 	        	for (int j=0; j<numero3[i].length;j++) {
 				
-				numero3[i][j]=numero1[i][j]+numero[i][j];
+				numero3[i][j]=numero[i][j]+numero[i][j];
 	        	}
 	        }
 	       for ( int i=0; i<numero3.length; i++) {
