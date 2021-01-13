@@ -17,20 +17,6 @@ public class anagrama {
 	 */
 	
 	
-	public static int contar(int [] a1)
-	{
-		int cuenta=0;
-		   for(int i=0;i<a1.length ;i++)
-		   {
-			   cuenta = cuenta + a1[i];
-			  
-		   }
-
-		
-		return cuenta;
-	}
-	
-	
 	public static int [] inicializa (int [] a1)
 	{
 		
@@ -80,34 +66,40 @@ public class anagrama {
 	 public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner ent = new Scanner(System.in);
-		Scanner ent1 = new Scanner(System.in);
+		
 		 
 		
 		
 		
 			   char letra=0;
+			   String salir="salir";
 			   String s1= "";
 			   String s2="";
 			   int [] frase1 = new int[256];
-			   System.out.println("dime la frase 1  :");
-			    s1 = ent.next();
-			   frase1=inicializa(frase1);
-
 			   int [] frase2 = new int[256];
-			   System.out.println("dime la frase 2  :");
-			    s2  = ent.next();
-			
-			   frase2=inicializa(frase2);
 			   
-			   frase1=convierte_string_caracter(frase1,s1);
-			
-			   frase2=convierte_string_caracter(frase2,s2);
-			  
-			if(comparar_arrays(frase1,frase2))
-				System.out.println("coinciden");
-			else
-				System.out.println("no coinciden");
-
-}
-	 
+			   while(!s1.equals(salir)) {
+					   System.out.println("dime la frase 1 o escribe salir para acabar  :");
+					    s1 = ent.next();
+					    if (s1.equals(salir))
+					    	return;
+					   frase1=inicializa(frase1);
+		
+					   
+					   System.out.println("dime la frase 2  :");
+					    s2  = ent.next();
+					
+					   frase2=inicializa(frase2);
+					   
+					   frase1=convierte_string_caracter(frase1,s1);
+					
+					   frase2=convierte_string_caracter(frase2,s2);
+					  
+					if(comparar_arrays(frase1,frase2))
+						System.out.println("si");
+					else
+						System.out.println("no ");
+			   }
+		}
+			 
 	}
