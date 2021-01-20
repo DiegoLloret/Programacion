@@ -81,8 +81,8 @@ public class anagrama {
 			   while(!s1.equals(salir)) {
 					   System.out.println("dime la frase 1 o escribe salir para acabar  :");
 					    s1 = ent.next();
-					    if (s1.equals(salir))
-					    	return;
+					   // if (s1.equals(salir))
+					    	//return;
 					   frase1=inicializa(frase1);
 		
 					   
