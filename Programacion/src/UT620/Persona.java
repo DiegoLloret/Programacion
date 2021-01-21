@@ -95,7 +95,8 @@ public class Persona {
 		System.out.printf("en la actualidad tengo %d años.\n", getEdad());
 	}
 	public void saludar() {
-		System.out.printf("hola soy %s %s y naci el %d/%d/%d.\n" , nombre, apellidos, diaNacimiento , mesNacimiento, anioNacimiento);
+		 System.out.printf("hola, soy "+nombre+" "+apellidos+"y naci el "+diaNacimiento+"/"+mesNacimiento+"/"+anioNacimiento+ "");
+		 
 	}
 	private String toUpperprimeraletra(String palabra) {
 		String npropio = palabra.toLowerCase();
