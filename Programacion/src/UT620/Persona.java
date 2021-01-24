@@ -92,7 +92,7 @@ public class Persona {
 		return edad;
 	}
 	public void mostrarEdad() {
-		System.out.printf("en la actualidad tengo %d años.\n", getEdad());
+		System.out.printf(" en la actualidad tengo %d años.\n", getEdad());
 	}
 	public void saludar() {
 		 System.out.printf("hola, soy "+nombre+" "+apellidos+"y naci el "+diaNacimiento+"/"+mesNacimiento+"/"+anioNacimiento+ "");
