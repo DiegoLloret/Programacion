@@ -3,25 +3,29 @@
  */
 package UT725;
 
+import java.util.Scanner;
+
+import UT622.Libro;
+
 /**
  * @author Diego
  *
  */
 public class Cancion {
-	private String Cancion;
+	
 	private String titulo;
 	private String artista;
 	private int duracionMinutos;
 	public Cancion() {	
 	}
-	//constructor con datos:titulo, autor,ejemplares y prestados.
+	//constructor con datos:titulo, artista, y duracion.
 	public Cancion(String t, String a, int d) {
 		this.titulo=t;
 		this.artista=a;
 		this.duracionMinutos=d;
 		
 	}
-	//Getters privados para todos los atributos
+	//Getters publicos para todos los atributos
 	public String getTitulo() {
 		return titulo;
 	}
@@ -31,7 +35,7 @@ public class Cancion {
 	public int getDuracionMinutos() {
 		return duracionMinutos;
 	}
-	//Setters privado para todos los atributos.
+	//Setters publico para todos los atributos.
 	public void setTitulo(String t) {
 		if (t.equals(""))
 			this.titulo= "Sin titulo";
@@ -51,9 +55,11 @@ public class Cancion {
 			this.duracionMinutos=d;
 }
 	public String toString() {
-		return ""+getTitulo()+"-"+getArtista()+"("+getDuracionMinutos()+" minutos)";
+		return getTitulo()+"-"+getArtista()+"("+getDuracionMinutos()+" minutos)";
 	}
 	public String reproducir() {
-		return "Reproduciendo"+getTitulo();
+		return "Reproduciendo "+getTitulo();
 	}
+	
+	
 }
